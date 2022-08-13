@@ -1,0 +1,110 @@
+{
+  "name": "inspirum/xml-symfony",
+  "description": "Symfony bundle for inspirum/xml library",
+  "keywords": [
+    "inspirum",
+    "inspishop",
+    "xml",
+    "api-client",
+    "symfony",
+    "bundle"
+  ],
+  "homepage": "https://github.com/inspirum/xml-symfony-php",
+  "license": "MIT",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Tomáš Novotný",
+      "email": "tomas.novotny@inspirum.cz",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=8.1",
+    "ext-json": "*",
+    "inspirum/arrayable": "^1.1",
+    "symfony/http-kernel": "^6.1",
+    "symfony/dependency-injection": "^6.1",
+    "inspirum/xml": "^2.1"
+  },
+  "require-dev": {
+    "inspirum/coding-standard": "^1.1",
+    "phpstan/phpstan": "^1.8",
+    "phpunit/phpunit": "^9.5",
+    "squizlabs/php_codesniffer": "^3.7",
+    "symfony/yaml": "^6.1",
+    "symfony/config": "^6.1"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "autoload": {
+    "psr-4": {
+      "Inspirum\\Xml\\Integration\\Symfony\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Inspirum\\Xml\\Integration\\Symfony\\Tests\\": "tests"
+    }
+  },
+  "config": {
+    "allow-plugins": {
+      "dealerdirect/phpcodesniffer-composer-installer": true
+    }
+  },
+  "scripts": {
+    "test": [
+      "@style:phpcs",
+      "@test:unit",
+      "@style:phpstan",
+      "@test:integration",
+      "@check:requirement",
+      "@check:unused"
+    ],
+    "test:test": [
+      "@test:unit",
+      "@test:integration"
+    ],
+    "test:unit": [
+      "@phpunit --testsuite=Unit"
+    ],
+    "test:integration": [
+      "@phpunit --testsuite=Integration"
+    ],
+    "test:coverage": [
+      "@phpunit --coverage-text --coverage-html=var/phpunit/coverage"
+    ],
+    "test:unit:coverage": [
+      "@phpunit --testsuite=Unit --coverage-text --coverage-html=var/phpunit/coverage"
+    ],
+    "test:infection": [
+      "@infection"
+    ],
+    "style:phpcs": [
+      "@phpcs"
+    ],
+    "style:phpstan": [
+      "@phpstan -l 9"
+    ],
+    "style:check": [
+      "@style:phpcs",
+      "@style:phpstan"
+    ],
+    "style:fix": [
+      "@phpcbf src tests"
+    ],
+    "check:requirement": [
+      "@composerRequireChecker"
+    ],
+    "check:unused": [
+      "@composerUnused"
+    ],
+    "phpunit": "./vendor/bin/phpunit",
+    "phpcs": "./vendor/bin/phpcs -p -s --extensions=php --colors --report-width=140 --parallel=50",
+    "phpstan": "./vendor/bin/phpstan analyse -c phpstan.neon.dist",
+    "phpcbf": "./vendor/bin/phpcbf -p --extensions=php --parallel=50",
+    "infection": "./tools/infection",
+    "composerRequireChecker": "./tools/composer-require-checker check",
+    "composerUnused": "./tools/composer-unused"
+  }
+}
