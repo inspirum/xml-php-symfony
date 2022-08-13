@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Inspirum\Xml\Integration\Symfony;
+namespace Inspirum\XML\Integration\Symfony;
 
 use Inspirum\XML\Builder\DOMDocumentFactory;
 use Inspirum\XML\Builder\DefaultDOMDocumentFactory;
@@ -19,7 +19,7 @@ use Symfony\Component\DependencyInjection\Loader\Configurator\ServicesConfigurat
 use Symfony\Component\DependencyInjection\Reference;
 use Symfony\Component\HttpKernel\Bundle\AbstractBundle;
 
-final class XmlBundle extends AbstractBundle
+final class XMLBundle extends AbstractBundle
 {
     public const ALIAS = 'xml';
 

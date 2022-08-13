@@ -1,4 +1,4 @@
-# Xml Symfony Bundle
+# XML Symfony Bundle
 
 **Created as part of [inspishop][link-inspishop] e-commerce platform by [inspirum][link-inspirum] team.**
 
@@ -18,6 +18,16 @@ Run composer require command:
 composer require inspirum/xml-symfony
 ```
 
+Enable bundle by adding it to the list of registered bundles in the `config/bundles.php` file of your project:
+
+```php
+<?php
+
+return [
+    // ...
+    Inspirum\XML\Integration\Symfony\XMLBundle::class => ['all' => true],
+];
+```
 
 ## Contributing
 

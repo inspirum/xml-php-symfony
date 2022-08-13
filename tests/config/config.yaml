@@ -1,4 +1,4 @@
 services:
-    Inspirum\Xml\Integration\Symfony\Tests\Service:
+    Inspirum\XML\Integration\Symfony\Tests\Service:
         autowire: true
         public: true

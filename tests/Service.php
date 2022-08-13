@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Inspirum\Xml\Integration\Symfony\Tests;
+namespace Inspirum\XML\Integration\Symfony\Tests;
 
 use Inspirum\XML\Builder\DOMDocumentFactory;
 use Inspirum\XML\Builder\DefaultDOMDocumentFactory;

@@ -3,13 +3,16 @@
   "description": "Symfony bundle for inspirum/xml library",
   "keywords": [
     "inspirum",
-    "inspishop",
     "xml",
-    "api-client",
+    "xml-reader",
+    "xml-parser",
+    "xml-writer",
+    "xml-builder",
+    "xml-to-array",
     "symfony",
     "bundle"
   ],
-  "homepage": "https://github.com/inspirum/xml-symfony-php",
+  "homepage": "https://github.com/inspirum/xml-php-symfony",
   "license": "MIT",
   "type": "library",
   "authors": [
@@ -39,12 +42,12 @@
   "prefer-stable": true,
   "autoload": {
     "psr-4": {
-      "Inspirum\\Xml\\Integration\\Symfony\\": "src"
+      "Inspirum\\XML\\Integration\\Symfony\\": "src"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Inspirum\\Xml\\Integration\\Symfony\\Tests\\": "tests"
+      "Inspirum\\XML\\Integration\\Symfony\\Tests\\": "tests"
     }
   },
   "config": {

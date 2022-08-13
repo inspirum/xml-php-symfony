@@ -2,15 +2,15 @@
 
 declare(strict_types=1);
 
-namespace Inspirum\Xml\Integration\Symfony\Tests;
+namespace Inspirum\XML\Integration\Symfony\Tests;
 
-use Inspirum\Xml\Integration\Symfony\XmlBundle;
+use Inspirum\XML\Integration\Symfony\XMLBundle;
 use PHPUnit\Framework\TestCase;
 use Symfony\Component\Config\Loader\LoaderInterface;
 use Symfony\Component\Filesystem\Filesystem;
 use Symfony\Component\HttpKernel\Kernel;
 
-final class XmlBundleTest extends TestCase
+final class XMLBundleTest extends TestCase
 {
     public function testBundle(): void
     {
@@ -20,7 +20,7 @@ final class XmlBundleTest extends TestCase
              */
             public function registerBundles(): iterable
             {
-                return [new XmlBundle()];
+                return [new XMLBundle()];
             }
 
             public function registerContainerConfiguration(LoaderInterface $loader): void
@@ -32,7 +32,7 @@ final class XmlBundleTest extends TestCase
         try {
             $kernel->boot();
 
-            /** @var \Inspirum\Xml\Integration\Symfony\Tests\Service $service */
+            /** @var \Inspirum\XML\Integration\Symfony\Tests\Service $service */
             $service = $kernel->getContainer()->get(Service::class);
 
             self::assertInstanceOf(Service::class, $service);
