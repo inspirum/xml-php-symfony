@@ -1,7 +1,5 @@
 # XML Symfony Bundle
 
-**Created as part of [inspishop][link-inspishop] e-commerce platform by [inspirum][link-inspirum] team.**
-
 [![Latest Stable Version][ico-packagist-stable]][link-packagist-stable]
 [![Build Status][ico-workflow]][link-workflow]
 [![PHPStan][ico-phpstan]][link-phpstan]
@@ -64,8 +62,6 @@ The MIT License (MIT). Please see [License File][link-licence] for more informat
 [link-contributing]:        ./docs/CONTRIBUTING.md
 [link-code-of-conduct]:     ./docs/CODE_OF_CONDUCT.md
 [link-workflow]:            https://github.com/inspirum/xml-php-symfony/actions
-[link-inspishop]:           https://www.inspishop.cz/
-[link-inspirum]:            https://www.inspirum.cz/
 [link-packagist-stable]:    https://packagist.org/packages/inspirum/xml-symfony
 [link-packagist-download]:  https://packagist.org/packages/inspirum/xml-symfony
 [link-phpstan]:             https://github.com/phpstan/phpstan

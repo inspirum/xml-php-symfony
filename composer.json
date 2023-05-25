@@ -2,10 +2,10 @@
   "name": "inspirum/xml-symfony",
   "description": "Symfony bundle for inspirum/xml library",
   "keywords": [
-    "inspirum",
     "xml",
     "xml-reader",
     "xml-parser",
+    "xml-splitter",
     "xml-writer",
     "xml-builder",
     "xml-to-array",
