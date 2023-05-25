@@ -63,5 +63,5 @@ The MIT License (MIT). Please see [License File][link-licence] for more informat
 [link-code-of-conduct]:     ./docs/CODE_OF_CONDUCT.md
 [link-workflow]:            https://github.com/inspirum/xml-php-symfony/actions
 [link-packagist-stable]:    https://packagist.org/packages/inspirum/xml-symfony
-[link-packagist-download]:  https://packagist.org/packages/inspirum/xml-symfony
+[link-packagist-download]:  https://packagist.org/packages/inspirum/xml-symfony/stats
 [link-phpstan]:             https://github.com/phpstan/phpstan
