@@ -6,7 +6,12 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
 
-## [Unreleased](https://github.com/inspirum/xml-php-symfony/compare/v1.0.0...master)
+## [Unreleased](https://github.com/inspirum/xml-php-symfony/compare/v1.2.0...master)
+
+
+## [v1.2.0 (2026-03-26)](https://github.com/inspirum/xml-php-symfony/compare/v1.1.0...v1.2.0)
+### Added
+- Support [`inspirum/xml`](https://github.com/inspirum/xml-php) `^3.0` for Symfony `^6.4 || ^7.4 || ^8.0`
 
 
 ## [v1.1.0 (2024-04-19)](https://github.com/inspirum/xml-php-symfony/compare/v1.0.0...v1.1.0)
