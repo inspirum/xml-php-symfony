@@ -49,7 +49,7 @@ The MIT License (MIT). Please see [License File][link-licence] for more informat
 
 
 [ico-license]:              https://img.shields.io/github/license/inspirum/xml-php-symfony.svg?style=flat-square&colorB=blue
-[ico-workflow]:             https://img.shields.io/github/actions/workflow/status/inspirum/xml-php-symfony/master.yml?branch=master&style=flat-square
+[ico-workflow]:             https://img.shields.io/github/actions/workflow/status/inspirum/xml-php-symfony/test.yml?branch=main&style=flat-square
 [ico-packagist-stable]:     https://img.shields.io/packagist/v/inspirum/xml-symfony.svg?style=flat-square&colorB=blue
 [ico-packagist-download]:   https://img.shields.io/packagist/dt/inspirum/xml-symfony.svg?style=flat-square&colorB=blue
 [ico-phpstan]:              https://img.shields.io/badge/style-level%209-brightgreen.svg?style=flat-square&label=phpstan
@@ -59,8 +59,8 @@ The MIT License (MIT). Please see [License File][link-licence] for more informat
 [link-contributors]:        https://github.com/inspirum/xml-php-symfony/contributors
 [link-licence]:             ./LICENSE.md
 [link-changelog]:           ./CHANGELOG.md
-[link-contributing]:        ./docs/CONTRIBUTING.md
-[link-code-of-conduct]:     ./docs/CODE_OF_CONDUCT.md
+[link-contributing]:        https://github.com/inspirum/.github/blob/main/docs/CONTRIBUTING.md
+[link-code-of-conduct]:     https://github.com/inspirum/.github/blob/main/docs/CODE_OF_CONDUCT.md
 [link-workflow]:            https://github.com/inspirum/xml-php-symfony/actions
 [link-packagist-stable]:    https://packagist.org/packages/inspirum/xml-symfony
 [link-packagist-download]:  https://packagist.org/packages/inspirum/xml-symfony/stats

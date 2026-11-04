@@ -6,7 +6,12 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
 
-## [Unreleased](https://github.com/inspirum/xml-php-symfony/compare/v1.2.0...master)
+## [Unreleased](https://github.com/inspirum/xml-php-symfony/compare/v1.2.0...main)
+### Changed
+- Switched CI to the shared [inspirum/.github](https://github.com/inspirum/.github) workflow
+- Renamed the default branch from `master` to `main`
+### Removed
+- Removed local issue and pull request templates, code of conduct and contributing guide in favour of the shared [inspirum/.github](https://github.com/inspirum/.github) defaults
 
 
 ## [v1.2.0 (2026-03-26)](https://github.com/inspirum/xml-php-symfony/compare/v1.1.0...v1.2.0)
