@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 
 ## [Unreleased](https://github.com/inspirum/xml-php-symfony/compare/v1.2.0...main)
+### Added
+- Added support for [**inspirum/xml**](https://github.com/inspirum/xml-php) `^4.0`
 ### Changed
 - Switched CI to the shared [inspirum/.github](https://github.com/inspirum/.github) workflow
 - Renamed the default branch from `master` to `main`
